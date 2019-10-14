@@ -135,3 +135,5 @@ _NCrunch*
 *.ide
 *.ide-shm
 *.ide-wal
+*.png
+*.pdf
