@@ -14,7 +14,7 @@ namespace Collections.CollectionsExamples
             humsters.Push("Abraham");
             humsters.Push("Gon");
 
-            //Реализация стека в C# позволяет перебирать элементы в цыкле
+            //Реализация стека в C# позволяет перебирать элементы в цикле
             foreach (var humster in humsters)
             {
                 Console.WriteLine(humster);
