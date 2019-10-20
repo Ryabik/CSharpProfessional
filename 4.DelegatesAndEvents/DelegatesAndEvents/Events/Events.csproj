@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9B740180-2847-4CB1-9EB6-B07B97105AE3}</ProjectGuid>
+    <ProjectGuid>{2659D8E6-C83C-4106-992A-B901E408E32B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Delegates</RootNamespace>
-    <AssemblyName>Delegates</AssemblyName>
+    <RootNamespace>Events</RootNamespace>
+    <AssemblyName>Events</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegatesExamples\ActionDelegate.cs" />
-    <Compile Include="DelegatesExamples\AnonymousMethodsDelegate.cs" />
-    <Compile Include="DelegatesExamples\BasicSyntaxDelegate.cs" />
-    <Compile Include="DelegatesExamples\CombinedDelegates.cs" />
-    <Compile Include="DelegatesExamples\FuncDelegate.cs" />
-    <Compile Include="DelegatesExamples\LambdaExpressionDelegate.cs" />
-    <Compile Include="DelegatesExamples\NonStaticDelegate.cs" />
-    <Compile Include="DelegatesExamples\ShortSyntaxDelegate.cs" />
-    <Compile Include="DelegatesExamples\WithParamentersDelegate.cs" />
+    <Compile Include="EventsExamples\BasicSyntaxEvent.cs" />
+    <Compile Include="EventsExamples\EvenShorterSyntaxEvent.cs" />
+    <Compile Include="EventsExamples\KeyboardEvent.cs" />
+    <Compile Include="EventsExamples\ShortSyntaxEvent.cs" />
     <Compile Include="ExamplesEnumeration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
