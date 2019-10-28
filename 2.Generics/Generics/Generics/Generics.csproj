@@ -47,6 +47,7 @@
     <Compile Include="GenericExamples\Account.cs" />
     <Compile Include="GenericExamples\AccountGeneric.cs" />
     <Compile Include="GenericExamples\AccountGenericDouble.cs" />
+    <Compile Include="GenericExamples\OutPutExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -2,10 +2,10 @@
 
 namespace Generics.Examples
 {
-    class Account <T>
+    public class Account <T>
     {
         private T sum;
-        
+
         public Account (T sum)
         {
             this.sum = sum;
