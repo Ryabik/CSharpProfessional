@@ -8,6 +8,13 @@ namespace Delegates.DelegatesExamples
 {
     public static class ShortSyntaxDelegate
     {
+        delegate void MessageDelegate();
+
+        public static void ShowMessage()
+        {
+            Console.WriteLine("This is delegate with short syntax");
+        }
+
         public static void ShowShortSyntax()
         {
             //Вместо явного создания экземпляра делегата мы присваиваем ссылку на метод переменной делегата
@@ -15,13 +22,6 @@ namespace Delegates.DelegatesExamples
             
             //Также мы можем упустить метод Invoke и вызвать метод, на который указывает делегат, следующим образом:
             messageDelegate();
-        }
-
-        delegate void MessageDelegate();
-
-        public static void ShowMessage()
-        {
-            Console.WriteLine("This is delegate with short syntax");
         }
     }
 }

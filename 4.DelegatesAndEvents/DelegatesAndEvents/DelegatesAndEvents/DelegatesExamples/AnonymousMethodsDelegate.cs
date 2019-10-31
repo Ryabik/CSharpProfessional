@@ -14,20 +14,32 @@ namespace Delegates.DelegatesExamples
         {
             MessageDelegate messageDelegate = delegate 
             {
+                var value = SomeMethod();
                 Console.WriteLine("This is anonymous method");
             };
 
             messageDelegate();
         }
 
+        private static int SomeMethod()
+        {
+            return 5;
+        }
+
+
+
+
+
+
+
 
         delegate int SumDelegate(int a, int b);
 
         public static void MethodWithReturnType()
         {
-            SumDelegate sumDelegate = delegate (int a, int b)
+            SumDelegate sumDelegate = delegate (int x, int y)
             {
-                return a + b;
+                return x + y;
             };
 
 

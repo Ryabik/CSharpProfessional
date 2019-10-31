@@ -4,7 +4,7 @@ namespace Delegates.DelegatesExamples
 {
     public static class LambdaExpressionDelegate
     {
-        delegate int MultiplyDelegate(int a);
+
 
         public static void ShowLambdaExpression()
         {
@@ -13,6 +13,10 @@ namespace Delegates.DelegatesExamples
 
             Console.WriteLine(multiplyDelegate(4));
         }
+
+
+
+        delegate int MultiplyDelegate(int a);
 
         public static void AnonymousMethodVsLambda()
         {

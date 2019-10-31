@@ -20,6 +20,9 @@ namespace Delegates
                 case ExamplesEnumeration.DelegateNonStatic:
                     NonStaticDelegate.ShowNonStaticDelegate();
                     break;
+                case ExamplesEnumeration.DelegateWithParameters:
+                    WithParametersDelegate.ShowWithParametersDelegate();
+                    break;
                 case ExamplesEnumeration.DelegateCombined:
                     CombinedDelegates.ShowCombinedDelegate();
                     break;
