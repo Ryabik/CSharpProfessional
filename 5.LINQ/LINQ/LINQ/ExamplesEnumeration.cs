@@ -17,6 +17,7 @@
         AnonymousTypesTryChangeProperty,
         AnonymousTypesPropertyNamesInheritance,
         ExplicitSelectClause,
-        ExplicitSelectAnonymousType
+        ExplicitSelectAnonymousType,
+        DynamicTypes
     }
 }

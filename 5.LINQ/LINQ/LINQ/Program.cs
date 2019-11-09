@@ -7,7 +7,7 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
-            var exampleToRun = ExamplesEnumeration.ExplicitSelectAnonymousType;
+            var exampleToRun = ExamplesEnumeration.DynamicTypes;
 
             switch (exampleToRun)
             {
@@ -58,6 +58,9 @@ namespace LINQ
                     break;
                 case ExamplesEnumeration.ExplicitSelectAnonymousType:
                     ExplicitSelectClause.SelectAnonymousType();
+                    break;
+                case ExamplesEnumeration.DynamicTypes:
+                    DynamicTypes.ShowDynamicTypes();
                     break;
             }
 
