@@ -1,4 +1,7 @@
-﻿namespace LINQ.HelpMaterial
+﻿using System;
+using System.Collections.Generic;
+
+namespace LINQ.HelpMaterial
 {
     public class Person
     {               
@@ -17,7 +20,7 @@
 
         public override string ToString()
         {
-            return $"FirstName: {FirstName}, LastnName: {LastName}, Gender: {Gender}, Age: {Age}";
+            return $"FirstName: {FirstName}, \tLastnName: {LastName}, \tGender: {Gender}, \tAge: {Age}";
         }
     }
 }

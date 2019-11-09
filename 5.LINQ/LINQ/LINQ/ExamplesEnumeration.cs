@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LINQ
+﻿namespace LINQ
 {
     enum ExamplesEnumeration
     {
         BasicSyntax,
         GenderCondition,
         ExtensionMethodSyntax,
-
+        DefferedExecution,
+        WhereBasicSyntax,
+        WhereExtensionSyntax,
+        OrderByBasicSyntax,
+        OrderByExtensionSyntax,
+        GroupByBasicSyntax,
+        GroupByExtensionSyntax,
+        GroupByInto,
+        AnonymousTypes,
+        AnonymousTypesTryChangeProperty,
+        AnonymousTypesPropertyNamesInheritance,
+        ExplicitSelectClause,
+        ExplicitSelectAnonymousType
     }
 }

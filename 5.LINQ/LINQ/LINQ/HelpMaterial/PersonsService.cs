@@ -14,7 +14,7 @@ namespace LINQ.HelpMaterial
             persons.Add(new Person("Audrey", "Hepburn", false, 29));
             persons.Add(new Person("John", "Wick", true, 42));
             persons.Add(new Person("Anakin", "Skywalker", true, 29));
-            persons.Add(new Person("Princess ", "Bubblegum", false, 827));
+            persons.Add(new Person("Princess", "Bubblegum", false, 827));
             persons.Add(new Person("Svetlana", "Sokolova", false, 45));
             persons.Add(new Person("Varian", "Wrynn", true, 42));
 

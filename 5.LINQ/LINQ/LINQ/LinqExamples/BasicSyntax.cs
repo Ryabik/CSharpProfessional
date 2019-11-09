@@ -14,10 +14,8 @@ namespace LINQ.LinqExamples
                          where character.Age > 20
                          select character;
 
-            foreach (var adult in adults)
-            {
-                Console.WriteLine(adult.ToString());
-            }
+            foreach (var adult in adults)            
+                Console.WriteLine(adult.ToString());            
         }
 
         public static void ShowConditionWithGender()
@@ -28,10 +26,8 @@ namespace LINQ.LinqExamples
                          where character.Gender == true
                          select character;
 
-            foreach (var adult in adults)
-            {
-                Console.WriteLine(adult.ToString());
-            }
+            foreach (var adult in adults)            
+                Console.WriteLine(adult.ToString());            
         }
 
         //Самостоятельно сделать запрос Linq для отбора персонажей длинна имени которых равна длинне фамилии

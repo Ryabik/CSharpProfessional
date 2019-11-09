@@ -46,8 +46,13 @@
     <Compile Include="ExamplesEnumeration.cs" />
     <Compile Include="HelpMaterial\Person.cs" />
     <Compile Include="HelpMaterial\PersonsService.cs" />
+    <Compile Include="LinqExamples\AnonymousTypes.cs" />
     <Compile Include="LinqExamples\BasicSyntax.cs" />
+    <Compile Include="LinqExamples\ExplicitSelectClause.cs" />
     <Compile Include="LinqExamples\ExtensionMethodSyntax.cs" />
+    <Compile Include="LinqExamples\GroupByClause.cs" />
+    <Compile Include="LinqExamples\OrderByClause.cs" />
+    <Compile Include="LinqExamples\WhereClause.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

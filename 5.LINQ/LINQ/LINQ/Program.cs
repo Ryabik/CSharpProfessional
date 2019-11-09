@@ -1,9 +1,5 @@
 ﻿using LINQ.LinqExamples;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LINQ
 {
@@ -11,7 +7,7 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
-            var exampleToRun = ExamplesEnumeration.ExtensionMethodSyntax;
+            var exampleToRun = ExamplesEnumeration.ExplicitSelectAnonymousType;
 
             switch (exampleToRun)
             {
@@ -23,6 +19,45 @@ namespace LINQ
                     break;
                 case ExamplesEnumeration.ExtensionMethodSyntax:
                     ExtensionMethodSyntax.ShowExtensionMethodSyntax();
+                    break;
+                case ExamplesEnumeration.DefferedExecution:
+                    ExtensionMethodSyntax.DefferedExecution();
+                    break;
+                case ExamplesEnumeration.WhereBasicSyntax:
+                    WhereClause.ShowWhereWithBasicSyntax();
+                    break;
+                case ExamplesEnumeration.WhereExtensionSyntax:
+                    WhereClause.ShowWhereWithExtensionSyntax();
+                    break;
+                case ExamplesEnumeration.OrderByBasicSyntax:
+                    OrderByClause.ShowOrederBy();
+                    break;
+                case ExamplesEnumeration.OrderByExtensionSyntax:
+                    OrderByClause.OrderByExtensionSyntax();
+                    break;
+                case ExamplesEnumeration.GroupByBasicSyntax:
+                    GroupByClause.ShowGroupBy();
+                    break;
+                case ExamplesEnumeration.GroupByExtensionSyntax:
+                    GroupByClause.GroupByExtensionSyntax();
+                    break;
+                case ExamplesEnumeration.GroupByInto:
+                    GroupByClause.GroupByInto();
+                    break;
+                case ExamplesEnumeration.AnonymousTypes:
+                    AnonymousTypes.ShowAnonymousTypes();
+                    break;
+                case ExamplesEnumeration.AnonymousTypesTryChangeProperty:
+                    AnonymousTypes.TryChangeProperty();
+                    break;
+                case ExamplesEnumeration.AnonymousTypesPropertyNamesInheritance:
+                    AnonymousTypes.PropertiesNamesInheritance();
+                    break;
+                case ExamplesEnumeration.ExplicitSelectClause:
+                    ExplicitSelectClause.ShowExplicitSelect();
+                    break;
+                case ExamplesEnumeration.ExplicitSelectAnonymousType:
+                    ExplicitSelectClause.SelectAnonymousType();
                     break;
             }
 
