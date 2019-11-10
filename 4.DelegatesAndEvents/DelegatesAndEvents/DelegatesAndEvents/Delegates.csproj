@@ -46,6 +46,8 @@
     <Compile Include="DelegatesExamples\ActionDelegate.cs" />
     <Compile Include="DelegatesExamples\AnonymousMethodsDelegate.cs" />
     <Compile Include="DelegatesExamples\BasicSyntaxDelegate.cs" />
+    <Compile Include="DelegatesExamples\BuildInDelegates.cs" />
+    <Compile Include="DelegatesExamples\CallbackExample.cs" />
     <Compile Include="DelegatesExamples\CombinedDelegates.cs" />
     <Compile Include="DelegatesExamples\FuncDelegate.cs" />
     <Compile Include="DelegatesExamples\LambdaExpressionDelegate.cs" />
