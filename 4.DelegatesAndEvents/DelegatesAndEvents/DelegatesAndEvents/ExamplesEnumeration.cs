@@ -10,6 +10,11 @@
         DelegateAnonymousMethod,
         DelegateAnonymousMethodReturn,
         DelegateLambdaExpression,
-        DelegateAnounymousMethodVsLambda
+        DelegateAnounymousMethodVsLambda,
+        BuildInDelegateAction,
+        BuildInDelegateGenericAction,
+        BuildInDelegateFunction,
+        BuildInDelegatePredicate,
+        CallbackShow
     }
 }

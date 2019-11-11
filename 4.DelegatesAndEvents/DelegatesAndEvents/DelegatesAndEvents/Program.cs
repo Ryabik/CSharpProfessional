@@ -7,7 +7,7 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
-            var exampleToRun = ExamplesEnumeration.DelegateAnounymousMethodVsLambda;
+            var exampleToRun = ExamplesEnumeration.CallbackShow;
 
             switch (exampleToRun)
             {
@@ -37,6 +37,21 @@ namespace Delegates
                     break;
                 case ExamplesEnumeration.DelegateAnounymousMethodVsLambda:
                     LambdaExpressionDelegate.AnonymousMethodVsLambda();
+                    break;
+                case ExamplesEnumeration.BuildInDelegateAction:
+                    BuildInDelegates.ShowActionDelegate();
+                    break;
+                case ExamplesEnumeration.BuildInDelegateGenericAction:
+                    BuildInDelegates.ShowGenericActionDelegate();
+                    break;
+                case ExamplesEnumeration.BuildInDelegateFunction:
+                    BuildInDelegates.ShowFunctionDelegate();
+                    break;
+                case ExamplesEnumeration.BuildInDelegatePredicate:
+                    BuildInDelegates.ShowPredicateDelegate();
+                    break;
+                case ExamplesEnumeration.CallbackShow:
+                    CallbackExample.UseCallback();
                     break;
             }
 

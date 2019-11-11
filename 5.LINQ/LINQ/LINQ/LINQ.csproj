@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9B740180-2847-4CB1-9EB6-B07B97105AE3}</ProjectGuid>
+    <ProjectGuid>{7692E5B6-6611-4D9E-8BBA-6860D9A1B4C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Delegates</RootNamespace>
-    <AssemblyName>Delegates</AssemblyName>
+    <RootNamespace>LINQ</RootNamespace>
+    <AssemblyName>LINQ</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,23 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegatesExamples\ActionDelegate.cs" />
-    <Compile Include="DelegatesExamples\AnonymousMethodsDelegate.cs" />
-    <Compile Include="DelegatesExamples\BasicSyntaxDelegate.cs" />
-    <Compile Include="DelegatesExamples\BuildInDelegates.cs" />
-    <Compile Include="DelegatesExamples\CallbackExample.cs" />
-    <Compile Include="DelegatesExamples\CombinedDelegates.cs" />
-    <Compile Include="DelegatesExamples\FuncDelegate.cs" />
-    <Compile Include="DelegatesExamples\LambdaExpressionDelegate.cs" />
-    <Compile Include="DelegatesExamples\NonStaticDelegate.cs" />
-    <Compile Include="DelegatesExamples\ShortSyntaxDelegate.cs" />
-    <Compile Include="DelegatesExamples\WithParamentersDelegate.cs" />
     <Compile Include="ExamplesEnumeration.cs" />
+    <Compile Include="HelpMaterial\Person.cs" />
+    <Compile Include="HelpMaterial\PersonsService.cs" />
+    <Compile Include="LinqExamples\AnonymousTypes.cs" />
+    <Compile Include="LinqExamples\BasicSyntax.cs" />
+    <Compile Include="LinqExamples\DynamicTypes.cs" />
+    <Compile Include="LinqExamples\ExplicitSelectClause.cs" />
+    <Compile Include="LinqExamples\ExtensionMethodSyntax.cs" />
+    <Compile Include="LinqExamples\GroupByClause.cs" />
+    <Compile Include="LinqExamples\OrderByClause.cs" />
+    <Compile Include="LinqExamples\WhereClause.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
