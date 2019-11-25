@@ -9,7 +9,7 @@ namespace EntityFrameworkExample.EntityFrameworkExamples
         public static void DeleteCharacter()
         {
             var dbContext = new CSharpAdvancedContext();
-            var character = dbContext.Characters.FirstOrDefault();
+            var character = dbContext.Characters.FirstOrDefault(x => x.FirstName == "John");
 
             dbContext.Characters.Remove(character);
             //dbContext.Entry(character).State = EntityState.Deleted;
