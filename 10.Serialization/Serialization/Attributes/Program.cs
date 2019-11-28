@@ -12,7 +12,7 @@ namespace Attributes
     {
         static void Main(string[] args)
         {
-            var exampleToRun = ExamplesEnumeration.ShowAllAttributes;
+            var exampleToRun = ExamplesEnumeration.ShowAttributesOnType;
 
             switch (exampleToRun)
             {
@@ -28,6 +28,13 @@ namespace Attributes
                     break;
                 case ExamplesEnumeration.ShowAllAttributes:
                     ExamplesRunner<AttributesExample>.ShowAllAttributes(new AttributesExample());
+                    break;
+                case ExamplesEnumeration.ShowImportantAttribute:
+                    ExamplesRunner<ImportantClass>.ShowTypeAttributes(new ImportantClass());
+                    break;
+                case ExamplesEnumeration.ShowAttributesOnType:
+                    foreach (var attr in typeof(ImportantClass).CustomAttributes)
+                        Console.WriteLine(attr);
                     break;
             }
 

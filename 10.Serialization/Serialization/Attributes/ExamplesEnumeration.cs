@@ -11,6 +11,8 @@ namespace Attributes
         ShowTypeAttributes,
         ShowMethodsAttributes,
         ShowPropertiesAttributes,
-        ShowAllAttributes
+        ShowAllAttributes,
+        ShowImportantAttribute,
+        ShowAttributesOnType
     }
 }
