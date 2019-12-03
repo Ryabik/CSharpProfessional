@@ -10,7 +10,7 @@ namespace AsyncDelegates
     {
         AsyncAction,
         EndInvoke,
-        FunctAsync,
+        FuncAsync,
         WaitForAsync,
         IsComplited,
     }

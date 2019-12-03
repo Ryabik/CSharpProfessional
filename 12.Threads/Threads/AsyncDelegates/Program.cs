@@ -21,7 +21,7 @@ namespace AsyncDelegates
                 case ExamplesEnumeration.EndInvoke:
                     AsyncActionExample.ShowEndInvoke();
                     break;
-                case ExamplesEnumeration.FunctAsync:
+                case ExamplesEnumeration.FuncAsync:
                     AsyncFuncExample.ShowAsyncFunc();
                     break;
                 case ExamplesEnumeration.WaitForAsync:
