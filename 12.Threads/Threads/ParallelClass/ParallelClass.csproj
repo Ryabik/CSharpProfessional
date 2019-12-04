@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{540AE57A-E5DA-450F-9FC2-28EA461AD869}</ProjectGuid>
+    <ProjectGuid>{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tasks</RootNamespace>
-    <AssemblyName>Tasks</AssemblyName>
+    <RootNamespace>ParallelClass</RootNamespace>
+    <AssemblyName>ParallelClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,19 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExamplesEnumeration.cs" />
-    <Compile Include="Examples\IsBackgroupExample.cs" />
-    <Compile Include="Examples\MultipleParametersExample.cs" />
-    <Compile Include="Examples\TaskContinuationExample.cs" />
-    <Compile Include="Examples\TaskExample.cs" />
-    <Compile Include="Examples\TaskFactoryExample.cs" />
-    <Compile Include="Examples\TaskResultExample.cs" />
-    <Compile Include="Examples\WaitExample.cs" />
+    <Compile Include="Examples\ForEachExample.cs" />
+    <Compile Include="Examples\ForExample.cs" />
+    <Compile Include="Examples\InvokeExamples.cs" />
+    <Compile Include="Examples\ParallelLinqExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Threads\Threads.csproj">
       <Project>{2841f2b9-d751-485f-97cd-2fe2ee1c09f3}</Project>

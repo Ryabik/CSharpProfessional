@@ -12,9 +12,19 @@ namespace Tasks.Examples
     {
         public static void ShowTask()
         {
+            Action action = WriteChar;
+
+            Task task = new Task(action);   
+            task.Start();
+
+            WriteChar();
+        }
+
+        public static void ShowTaskWithParameters()
+        {
             Action<object> action = WriteAnyChar;
 
-            Task task = new Task(action, "9");   
+            Task task = new Task(action, "9");
             task.Start();
 
             WriteChar();

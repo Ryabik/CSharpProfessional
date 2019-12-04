@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AsyncDelegates
+namespace ParallelClass
 {
     public enum ExamplesEnumeration
     {
-        AsyncAction,
-        EndInvoke,
-        FuncAsync,
-        WaitForAsync,
-        IsComplited,
+        Invoke,
+        InvokeWithOptions,
+        For,
+        ForEach,
+        ParallelLinq
     }
 }

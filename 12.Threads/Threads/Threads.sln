@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDelegates", "AsyncDele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{540AE57A-E5DA-450F-9FC2-28EA461AD869}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelClass", "ParallelClass\ParallelClass.csproj", "{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{6267ECDA-4515-475B-8192-24DED131BA94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{540AE57A-E5DA-450F-9FC2-28EA461AD869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{540AE57A-E5DA-450F-9FC2-28EA461AD869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{540AE57A-E5DA-450F-9FC2-28EA461AD869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3BFBE4-F7DD-4870-88B0-1D20E7606853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6267ECDA-4515-475B-8192-24DED131BA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6267ECDA-4515-475B-8192-24DED131BA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6267ECDA-4515-475B-8192-24DED131BA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6267ECDA-4515-475B-8192-24DED131BA94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

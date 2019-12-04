@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AsyncDelegates
+namespace AsyncAwait
 {
     public enum ExamplesEnumeration
     {
-        AsyncAction,
-        EndInvoke,
-        FuncAsync,
-        WaitForAsync,
-        IsComplited,
+        AsyncAwait,
+        ReturnValue
     }
 }
