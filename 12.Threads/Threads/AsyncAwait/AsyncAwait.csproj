@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{540AE57A-E5DA-450F-9FC2-28EA461AD869}</ProjectGuid>
+    <ProjectGuid>{6267ECDA-4515-475B-8192-24DED131BA94}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tasks</RootNamespace>
-    <AssemblyName>Tasks</AssemblyName>
+    <RootNamespace>AsyncAwait</RootNamespace>
+    <AssemblyName>AsyncAwait</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,24 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExamplesEnumeration.cs" />
-    <Compile Include="Examples\IsBackgroupExample.cs" />
-    <Compile Include="Examples\MultipleParametersExample.cs" />
-    <Compile Include="Examples\TaskContinuationExample.cs" />
-    <Compile Include="Examples\TaskExample.cs" />
-    <Compile Include="Examples\TaskFactoryExample.cs" />
-    <Compile Include="Examples\TaskResultExample.cs" />
-    <Compile Include="Examples\WaitExample.cs" />
+    <Compile Include="Examples\AsyncAwaitExample.cs" />
+    <Compile Include="Examples\ReturnValueExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Threads\Threads.csproj">
-      <Project>{2841f2b9-d751-485f-97cd-2fe2ee1c09f3}</Project>
-      <Name>Threads</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

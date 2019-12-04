@@ -9,7 +9,14 @@ namespace Tasks
     public enum ExamplesEnumeration
     {
         BasicTask,
+        WithParameters,
         TaskStatus,
-        Background,
+        IsBackground,
+        Wait,
+        WaitAllOrAny,
+        TaskFactory,
+        ContinueWith,
+        Result,
+        MultipleParameters,
     }
 }
