@@ -32,8 +32,6 @@ namespace ParallelClass.Examples
             Console.WriteLine("Initializing with Parallel cycle: " + timer.ElapsedTicks);
 
             Console.WriteLine("Main thread is over");
-
-            Console.Read();
         }
     }
 }
