@@ -18,18 +18,18 @@ namespace NetCoreWebApp.Controllers
 
         public string Index()
         {
-            return characterRepository.Characters.FirstOrDefault().FirstName;
+            return characterRepository.GetCharacters().FirstOrDefault().FirstName;
         }
 
         public ViewResult Data()
         {
-            var character = characterRepository.Characters.FirstOrDefault();
-            return View(character);
+            ViewData["character"] = characterRepository.GetCharacters().FirstOrDefault();
+            return View();
         }
 
         public ViewResult All()
         {
-            ViewData["Characters"] = characterRepository.Characters;
+            ViewData["Characters"] = characterRepository.GetCharacters();
             return View();
         }
     }
