@@ -14,9 +14,11 @@ namespace CalculatorTests
             //Мы вставляем произвольные значения, однако они должны быть указаны явно
             //Это означает, что не стоит применять никаких Math.Random() и тому подобных методов.
             //Тестовый метод должен быть максимально стабильным
-            var result = basicOperations.Add(5,1);
+            var result = basicOperations.Add(5, 1);
+
+            Assert.AreEqual(result, 6);
         }
-        
+
         [TestMethod]
         public void Add_AddPositiveNumbersUsingAAA_ResultIsCorrect()
         {

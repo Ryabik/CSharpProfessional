@@ -7,6 +7,6 @@ namespace NetCoreWebApp.Models.Repositories
 {
     public interface ICharacterRepository
     {
-        List<Character> Characters { get; }
+        List<Character> GetCharacters();
     }
 }
